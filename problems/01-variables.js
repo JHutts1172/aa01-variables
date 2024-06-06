@@ -26,7 +26,7 @@ let age;
 console.log(firstName); //Jess
 console.log(lastName); //Hutts
 console.log(age); //undefined
-
+console.log('Marlon Santos');
 
 // 5. Assign the `age` variable to a number:
 
@@ -43,7 +43,7 @@ console.log(age); //0
 
 /******************** DO NOT MODIFY ANY CODE BELOW THIS LINE *****************/
 const obj = {};
-try { obj.firstName = firstName; } catch {}
-try { obj.lastName = lastName; } catch {}
-try { obj.age = age; } catch {}
+try { obj.firstName = firstName; } catch { }
+try { obj.lastName = lastName; } catch { }
+try { obj.age = age; } catch { }
 module.exports = obj;
