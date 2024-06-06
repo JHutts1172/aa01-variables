@@ -9,6 +9,7 @@ let adjective = "sparkly";
 let noun = "rainbow";
 
 let addLib;
+addLib = 'I shall ' + verb + ' to the ' + adjective + ' ' + noun + '?';
 
 console.log(addLib); // => "I shall swim to the sparkly rainbow?"
 
@@ -16,6 +17,6 @@ verb = "RUN";
 adjective = "FANCY";
 noun = "ParK";
 
-addLib = '';
+addLib = 'I shall ' + verb + ' to the ' + adjective + ' ' + noun + '?';
 
 console.log(addLib); // => "I shall RUN to the FANCY ParK?"
